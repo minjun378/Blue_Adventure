@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79512605cf0bab246aa2f5519deecf22, type: 3}
+  m_Name: LootTable
+  m_EditorClassIdentifier: 
+  _items:
+  - itemName: iron
+    weight: 0
+    sprite: {fileID: 2177018490394213437, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 0
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uAC15\uCCA0\uAC80"
+    weight: 70
+    sprite: {fileID: 2177018490394213437, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 0
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uACE8\uB4DC \uC18C\uB4DC"
+    weight: 25
+    sprite: {fileID: -1812244852503348542, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 0
+    Grade: 1
+    EquipCheck: 0
+  - itemName: "\uD50C\uB808\uD2F0\uB118 \uC18C\uB4DC"
+    weight: 5
+    sprite: {fileID: -8051064676242893745, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 0
+    Grade: 0
+    EquipCheck: 0
+  - itemName: "\uD3C9\uBC94\uD55C \uBC18\uC9C0"
+    weight: 70
+    sprite: {fileID: -100442597399994304, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 1
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uD669\uAE08 \uBC18\uC9C0"
+    weight: 25
+    sprite: {fileID: 988508033695770374, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 1
+    Grade: 1
+    EquipCheck: 0
+  - itemName: "\uD589\uC6B4\uC758 \uBC18\uC9C0"
+    weight: 5
+    sprite: {fileID: -9180435206052877221, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 1
+    Grade: 0
+    EquipCheck: 0
+  - itemName: "\uAC15\uCCA0 \uD22C\uAD6C"
+    weight: 70
+    sprite: {fileID: 461904975493045319, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 4
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uD669\uAE08 \uD22C\uAD6C"
+    weight: 25
+    sprite: {fileID: 1024327654706727640, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 4
+    Grade: 1
+    EquipCheck: 0
+  - itemName: "\uD50C\uB808\uD2F0\uB118 \uD22C\uAD6C"
+    weight: 5
+    sprite: {fileID: -5663944245633823822, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 4
+    Grade: 0
+    EquipCheck: 0
+  - itemName: "\uAC15\uCCA0 \uAC11\uC637"
+    weight: 70
+    sprite: {fileID: 1055009842949391866, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 2
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uD669\uAE08 \uAC11\uC637"
+    weight: 25
+    sprite: {fileID: -5117526316898926463, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 2
+    Grade: 1
+    EquipCheck: 0
+  - itemName: "\uD50C\uB808\uD2F0\uB118 \uAC11\uC637"
+    weight: 5
+    sprite: {fileID: 956898654908274010, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 2
+    Grade: 0
+    EquipCheck: 0
+  - itemName: "\uAC15\uCCA0 \uBC14\uC9C0"
+    weight: 70
+    sprite: {fileID: 2663990173153195481, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 3
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uD669\uAE08 \uBC14\uC9C0"
+    weight: 25
+    sprite: {fileID: -8971586025370193303, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 3
+    Grade: 1
+    EquipCheck: 0
+  - itemName: "\uD50C\uB808\uD2F0\uB118 \uBC14\uC9C0"
+    weight: 5
+    sprite: {fileID: 7016526101926298979, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 3
+    Grade: 0
+    EquipCheck: 0
+  - itemName: "\uAC15\uCCA0 \uC2E0\uBC1C"
+    weight: 70
+    sprite: {fileID: 3202937156265389223, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 5
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uD669\uAE08 \uC2E0\uBC1C"
+    weight: 25
+    sprite: {fileID: -3766499326483410753, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 5
+    Grade: 1
+    EquipCheck: 0
+  - itemName: "\uD50C\uB808\uD2F0\uB118 \uC2E0\uBC1C"
+    weight: 5
+    sprite: {fileID: 6969420659962077193, guid: 83bf93558b0ec514a95bd6edcd67f7ac, type: 3}
+    Type: 5
+    Grade: 0
+    EquipCheck: 0
+  - itemName: "\uC791\uC740 \uD68C\uBCF5 \uD3EC\uC158"
+    weight: 70
+    sprite: {fileID: 8554372433764900160, guid: ba00d2cc9cfe3aa4dbabe584112b29a8, type: 3}
+    Type: 6
+    Grade: 2
+    EquipCheck: 0
+  - itemName: "\uD070 \uD68C\uBCF5 \uD3EC\uC158"
+    weight: 30
+    sprite: {fileID: 6828423950733908299, guid: ba00d2cc9cfe3aa4dbabe584112b29a8, type: 3}
+    Type: 6
+    Grade: 0
+    EquipCheck: 0
+  _totalWeight: 700
